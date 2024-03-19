@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quizify</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px; /* Added padding to create space at the bottom */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Changed to min-height for small content */
+            box-sizing: border-box; /* Ensures padding is included in height calculation */
+        }
+        #uploadContainer {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        #uploadForm {
+            margin-bottom: 20px;
+        }
+        #csvFileInput {
+            margin-right: 10px;
+        }
+        #uploadButton {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        #uploadButton:hover {
+            background-color: #45a049;
+        }
+        #quizArea {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: none;
+            text-align: center;
+        }
+        .notification {
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .correct {
+            background-color: #7FFF7F; /* Light green */
+        }
+        .incorrect {
+            background-color: #FF7F7F; /* Light red */
+        }
+        .summary {
+            background-color: #D3D3D3; /* Light grey */
+        }
+        .question {
+            background-color: #D3D3D3; /* Light grey */
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            text-align: left;
+        }
+        #answerInput {
+            margin-top: 10px; /* Added margin to create space between input and bottom */
+        }
+    </style>
+</head>
+<body>
+<div id="uploadContainer">
+    <h1>Upload CSV File</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <input type="file" id="csvFileInput" accept=".csv">
+        <button type="submit" id="uploadButton">Upload</button>
+    </form>
+</div>
+
+<div id="quizArea">
+    <div id="notificationArea"></div>
+    <div id="question"></div>
+    <input type="text" id="answerInput" autocomplete="off" onkeypress="checkEnter(event)">
+    <button onclick="checkAnswer()">Submit Answer</button>
+</div>
+
+<script>
+    var questions = [];
+    var answeredQuestions = [];
+    var shuffledQuestions = [];
+    var currentQuestionNumber = 1;
+    var correctAnswers = 0;
+
+    // Function to shuffle an array
+    function shuffle(array) {
+        var currentIndex = array.length, temporaryValue, randomIndex;
+        while (currentIndex !== 0) {
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
+            temporaryValue = array[currentIndex];
+            array[currentIndex] = array[randomIndex];
+            array[randomIndex] = temporaryValue;
+        }
+        return array;
+    }
+
+    // Function to parse CSV data
+    function parseCSV(csv) {
+        var lines = csv.split('\n');
+        var delimiters = [',', ';', '\t']; // Possible delimiters
+        var detectedDelimiter = null;
+
+        for (var i = 0; i < delimiters.length; i++) {
+            var delimiter = delimiters[i];
+            if (lines[0].indexOf(delimiter) !== -1) {
+                detectedDelimiter = delimiter;
+                break;
+            }
+        }
+
+        if (!detectedDelimiter) {
+            console.error('Failed to detect CSV delimiter.');
+            return;
+        }
+
+        for (var j = 1; j < lines.length; j++) { // Start from index 1 to skip the header
+            var parts = lines[j].split(delimiter);
+            if (parts.length === 2) {
+                questions.push({ question: parts[0].trim(), answer: parts[1].trim().toLowerCase() });
+            }
+        }
+
+        // Shuffle the questions
+        shuffledQuestions = shuffle(questions.map(q => q.question));
+        // Display the first question
+        selectRandomQuestion();
+    }
+
+    // Function to read questions from CSV file
+    function readQuestionsFromCSV(file) {
+        var reader = new FileReader();
+        reader.onload = function(event) {
+            parseCSV(event.target.result);
+        };
+        reader.readAsText(file);
+    }
+
+    // Function to load selected CSV
+    function loadSelectedCSV() {
+        var fileInput = document.getElementById('csvFileInput');
+        var selectedFile = fileInput.files[0];
+        if (selectedFile) {
+            questions = [];
+            answeredQuestions = [];
+            shuffledQuestions = [];
+            currentQuestionNumber = 1;
+            correctAnswers = 0;
+            readQuestionsFromCSV(selectedFile);
+            document.getElementById('uploadContainer').style.display = 'none';
+            document.getElementById('quizArea').style.display = 'block';
+        }
+    }
+
+    // Function to select a question from shuffledQuestions
+    function selectRandomQuestion() {
+        var question = shuffledQuestions.pop();
+        var currentQuestion = questions.find(q => q.question === question);
+        document.getElementById('question').innerHTML = '<div style="padding: 10px"> (' + currentQuestionNumber + '/' + questions.length + ') </div>' + '<div class="question">' + currentQuestion.question + '</div>';
+        scrollToBottom();
+        return currentQuestion;
+    }
+
+    // Function to scroll to the bottom of the page
+    function scrollToBottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+    // Function to display notification
+    function displayNotification(message, isCorrect) {
+        var notificationArea = document.getElementById('notificationArea');
+        var notification = document.createElement('div');
+        notification.classList.add('notification');
+        notification.classList.add(isCorrect ? 'correct' : 'incorrect');
+        notification.textContent = message;
+        notificationArea.insertBefore(notification, notificationArea.firstChild);
+    }
+
+    // Function to check the user's answer
+    function checkAnswer() {
+        var userAnswer = document.getElementById('answerInput').value.trim().toLowerCase();
+        var currentQuestion = questions.find(q => q.question === document.querySelector('.question').textContent);
+        var isCorrect = userAnswer === currentQuestion.answer;
+
+        // Add the answered question to the list
+        answeredQuestions.unshift({ number: currentQuestionNumber, question: currentQuestion.question, userAnswer: userAnswer, correctAnswer: currentQuestion.answer, isCorrect: isCorrect });
+
+        // Update the notification area with answered questions
+        updateNotificationArea();
+
+        // Increment current question number
+        currentQuestionNumber++;
+
+        // Increment correctAnswers if the answer is correct
+        if (isCorrect) {
+            correctAnswers++;
+        }
+
+        // Display the new question
+        if (shuffledQuestions.length > 0) {
+            selectRandomQuestion();
+        } else {
+            displaySummary();
+        }
+
+        // Clear the input field
+        document.getElementById('answerInput').value = '';
+    }
+
+    // Function to update the notification area with answered questions
+    function updateNotificationArea() {
+        var notificationArea = document.getElementById('notificationArea');
+        // Clear the notification area
+        notificationArea.innerHTML = "";
+        answeredQuestions.forEach(function(qa) {
+            var message = "Question " + qa.number + "/" + questions.length + ": " + qa.question + " | Your Answer: " + qa.userAnswer;
+            if (!qa.isCorrect) {
+                message += " | Correct Answer: " + qa.correctAnswer;
+            }
+            displayNotification(message, qa.isCorrect);
+        });
+    }
+
+    // Function to display summary
+    function displaySummary() {
+        var totalQuestions = questions.length;
+        var incorrectAnswers = totalQuestions - correctAnswers;
+        var percentage = (correctAnswers / totalQuestions) * 100;
+        var summaryMessage = "All questions have been answered!\n\nTotal questions: " + totalQuestions + "\nCorrect answers: " + correctAnswers + "\nIncorrect answers: " + incorrectAnswers + "\nPercentage: " + percentage.toFixed(2) + "%";
+        var summaryNotification = document.createElement('div');
+        summaryNotification.classList.add('notification');
+        summaryNotification.classList.add('summary');
+        summaryNotification.textContent = summaryMessage;
+        document.getElementById('question').textContent = '';
+        document.getElementById('question').appendChild(summaryNotification);
+        scrollToBottom(); // Scroll to bottom after displaying summary
+    }
+
+    // Function to handle keypress event on input field
+    function checkEnter(event) {
+        if (event.keyCode === 13) { // Enter key pressed
+            checkAnswer();
+        }
+    }
+
+    // Attach event listener to the form for file upload
+    document.getElementById('uploadForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent form submission
+        loadSelectedCSV();
+    });
+</script>
+</body>
+</html>

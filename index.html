@@ -102,6 +102,7 @@
     var shuffledQuestions = [];
     var currentQuestionNumber = 1;
     var correctAnswers = 0;
+    var totalQuestions = 0;
 
     // Function to shuffle an array
     function shuffle(array) {
@@ -142,6 +143,8 @@
             }
         }
 
+        totalQuestions = questions.length
+
         // Shuffle the questions
         shuffledQuestions = shuffle(questions.map(q => q.question));
         // Display the first question
@@ -177,7 +180,7 @@
     function selectRandomQuestion() {
         var question = shuffledQuestions.pop();
         var currentQuestion = questions.find(q => q.question === question);
-        document.getElementById('question').innerHTML = '<div style="padding: 10px"> (' + currentQuestionNumber + '/' + questions.length + ') </div>' + '<div class="question">' + currentQuestion.question + '</div>';
+        document.getElementById('question').innerHTML = '<div style="padding: 10px"> (' + currentQuestionNumber + '/' + totalQuestions + ') </div>' + '<div class="question">' + currentQuestion.question + '</div>';
         scrollToBottom();
         return currentQuestion;
     }
@@ -234,7 +237,7 @@
         // Clear the notification area
         notificationArea.innerHTML = "";
         answeredQuestions.forEach(function(qa) {
-            var message = "Question " + qa.number + "/" + questions.length + ": " + qa.question + " | Your Answer: " + qa.userAnswer;
+            var message = "Question " + qa.number + "/" + totalQuestions + ": " + qa.question + " | Your Answer: " + qa.userAnswer;
             if (!qa.isCorrect) {
                 message += " | Correct Answer: " + qa.correctAnswer;
             }
@@ -244,17 +247,69 @@
 
     // Function to display summary
     function displaySummary() {
-        var totalQuestions = questions.length;
         var incorrectAnswers = totalQuestions - correctAnswers;
         var percentage = (correctAnswers / totalQuestions) * 100;
         var summaryMessage = "All questions have been answered!\n\nTotal questions: " + totalQuestions + "\nCorrect answers: " + correctAnswers + "\nIncorrect answers: " + incorrectAnswers + "\nPercentage: " + percentage.toFixed(2) + "%";
+
+        // Create summary notification
         var summaryNotification = document.createElement('div');
         summaryNotification.classList.add('notification');
         summaryNotification.classList.add('summary');
         summaryNotification.textContent = summaryMessage;
-        document.getElementById('question').textContent = '';
-        document.getElementById('question').appendChild(summaryNotification);
+
+        // Create buttons
+        var replayButton = document.createElement('button');
+        replayButton.textContent = "Replay Quiz";
+        replayButton.addEventListener('click', replayQuiz);
+
+        var replayIncorrectButton = document.createElement('button');
+        replayIncorrectButton.textContent = "Replay Incorrect";
+        replayIncorrectButton.addEventListener('click', replayIncorrectQuestions);
+
+        // Clear the question area and append summary notification and buttons
+        var questionDiv = document.getElementById('question');
+        questionDiv.textContent = '';
+        questionDiv.appendChild(summaryNotification);
+        questionDiv.appendChild(replayButton);
+        if(incorrectAnswers > 0) {
+            questionDiv.appendChild(replayIncorrectButton);
+        }
         scrollToBottom(); // Scroll to bottom after displaying summary
+    }
+
+    // Function to replay the entire quiz
+    function replayQuiz() {
+        // Reset variables
+        shuffledQuestions = shuffle(questions.map(q => q.question));
+        currentQuestionNumber = 1;
+        correctAnswers = 0;
+        answeredQuestions = [];
+
+        // Clear notification area
+        document.getElementById('notificationArea').textContent = '';
+
+        // Display the first question
+        selectRandomQuestion();
+    }
+
+    // Function to replay only the incorrectly answered questions
+    function replayIncorrectQuestions() {
+        // Filter answered questions to get incorrect ones
+        var incorrectQuestions = answeredQuestions.filter(qa => !qa.isCorrect);
+
+        // Reset variables with incorrect questions
+        shuffledQuestions = shuffle(incorrectQuestions.map(qa => qa.question));
+        currentQuestionNumber = 1;
+        correctAnswers = 0;
+        answeredQuestions = [];
+
+        totalQuestions = incorrectQuestions.length
+
+        // Clear notification area
+        document.getElementById('notificationArea').textContent = '';
+
+        // Display the first incorrect question
+        selectRandomQuestion();
     }
 
     // Function to handle keypress event on input field

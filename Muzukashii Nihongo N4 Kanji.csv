@@ -1,188 +1,189 @@
 Question;Answer;Description
 交通;こうつう;lalu lintas
 普通;ふつう;biasa
-通る;とおる;
-通り;とおり;
-通う;かよう;
-降る;ふる;
-降りる;おりる;
-乗る;のる;
-着る;きる;
-着く;つく;
-着物;きもの;
-動く;うごく;
-動物;どうぶつ;
-運動;うんどう;
-荷物;にもつ;
-物;もの;
-食べ物;たべもの;
-品物;しなもの;
-食料品;しょくりょうひん;
-建てる;たてる;
-建物;たてもの;
-２階建て;２かいだて;
-夜;よる;
-今夜;こんや;
-台風;たいふう;
-風邪;かぜ;
-台所;だいどころ;
-台;だい;
-同じ;おなじ;
-回る;まわる;
-回す;まわす;
-回;かい;
-今晩;こんばん;
-勉強;べんきょう;
-進む;すすむ;
-進める;すすめる;
-集まる;あつまる;
-集める;あつめる;
-作る;つくる;
-作文;さくぶん;
-文章;ぶんしょう;
-例文;れいぶん;
-使う;つかう;
-大使館;たいしかん;
-便利;べんり;
-郵便局;ゆうびんきょく;
-低い;ひくい;
-短い;みじかい;
-近い;ちかい;
-近所;きんじょ;
-最近;さいきん;
-遠い;とおい;
-遠足;えんそく;
-遠慮;えんりょ;
-弱い;よわい;
-強い;つよい;
-暗い;くらい;
-明るい;あかるい;
-説明;せつめい;
-明けまして;明けまして;
-明日;あした;
-悪い;わるい;
-利用;りよう;
-旅行;りょこう;
-旅館;りょかん;
-美術館;びじゅつかん;
-有名;ゆうめい;
-去年;きょねん;
-写す;うつす;
-写真;しゃしん;
-真ん中;まんなか;
-夕方;ゆうがた;
-夕食;ゆうしょく;
-方;かた;
-両方;りょうほう;
-ご飯;ごはん;
-朝ご飯;あさごはん;
-昼ご飯;ひるごはん;
-晩ご飯;ばんごはん;
-主人;しゅじん;
-医者;いしゃ;
-医学;いがく;
-学者;がくしゃ;
-歯医者;はいしゃ;
-店員;てんいん;
-駅員;えきいん;
-会社員;かいしゃいん;
-銀行員;ぎんこういん;
-国民;こくみん;
-市民;しみん;
-運転;うんてん;
-運転手;うんてんしゅ;
-自転車;じてんしゃ;
-歌;うた;
-歌う;うたう;
-歌手;かしゅ;
-小説;しょうせつ;
-小説家;しょうせつか;
-家;いえ;
-家族;かぞく;
-家庭;かてい;
-今朝;けさ;
-朝食;ちょうしょく;
-昼間;ひるま;
-昼食;ちゅうしょく;
-春;はる;
-春休み;はる休み;
-夏;なつ;
-夏休み;なつやすみ;
-秋;あき;
-冬;ふゆ;
-冬休み;ふゆ休み;
-京都;きょうと;
-東京;とうきょう;
-東京都;とうきょうと;
-都合;つごう;
-都道府県;とどうふけん;
-青森県;あおもりけん;
-町;まち;
-〜町;〜ちょう;
-料理;りょうり;
-理由;りゆう;
-米;こめ;
-洗う;あらう;
-お手洗い;おてあらい;
-洗濯;せんたく;
-野球;やきゅう;
-野菜;やさい;
-お酒;おさけ;
-牛肉;ぎゅうにく;
-鶏肉;とりにく;
-豚肉;ぶたにく;
-味;あじ;
-臭味;しゅうみ;
-興味;きょうみ;
-意味;いみ;
-映画;えいが;
-映画館;えいがかん;
-漫画;まんが;
-時計;とけい;
-計画;けいかく;
-地図;ちず;
-図書館;としょかん;
-仕事;しごと;
-仕方;しかた;
-食事;しょくじ;
-用事;ようじ;
-用意;ようい;
-地理;ちり;
-地震;じしん;
-地下鉄;ちかてつ;
-犬;いぬ;
-太い;ふとい;
-太る;ふとる;
-区;く;
-思う;おもう;
-思い出す;おもいだす;
-和室;わしつ;
-和菓子;わがし;
-平和;へいわ;
-知る;しる;
-知らせる;しらせる;
-水族館;すいぞくかん;
-青い;あおい;
-光る;ひかる;
-光;ひかり;
-池;いけ;
-電池;でんち;
-別;べつ;
-特別;とくべつ;
-別れる;わかれる;
-寒い;さむい;
-暑い;あつい;
-蒸し暑い;むしあつい;
-重い;おもい;
-軽い;かるい;
-広い;ひろい;
-元気;げんき;
-病院;びょういん;
-病気;びょうき;
-起きる;おきる;
-起こす;おこす;
-寝る;ねる;
-寝坊;ねぼう;
-始まる;はじまる;
-始める;はじめる;
-終わる;おわる;
+通る;とおる;lewat
+通り;とおり;jalan raya
+通う;かよう;pulang-pergi
+降る;ふる;turun(hujan,salju)
+降りる;おりる;turun
+乗る;のる;naik
+着る;きる;memakai(baju)
+着く;つく;tiba, sampai
+着物;きもの;kimono
+動く;うごく;bergerak
+動物;どうぶつ;hewan
+運動;うんどう;olahraga
+荷物;にもつ;barang(bagasi)
+物;もの;barang
+食べ物;たべもの;makanan
+品物;しなもの;barang dagangan
+食料品;しょくりょうひん;makanan/bahan makanan/selain makanan pokok
+建てる;たてる;membangun
+建物;たてもの;bangunan
+２階建て;２かいだて;bangunan(rumah) 2 lantai
+夜;よる;malam
+今夜;こんや;malam ini
+台風;たいふう;angin topan
+風邪;かぜ;masuk angin
+台所;だいどころ;dapur
+〜台;〜だい;untuk menghitung kendaraan, barang elektronik
+同じ;おなじ;sama
+回る;まわる;berputar
+回す;まわす;memutar
+〜回;〜かい;kali(satu kali, dua kali, dsb)
+今晩;こんばん;malam ini
+勉強;べんきょう;belajar
+進む;すすむ;maju
+進める;すすめる;memajukan
+集まる;あつまる;berkumpul
+集める;あつめる;mengumpulkan
+作る;つくる;membuat
+作文;さくぶん;karangan
+文章;ぶんしょう;kalimat
+例文;れいぶん;contoh kalimat
+使う;つかう;menggunakan
+大使館;たいしかん;kedutaan besar
+便利;べんり;praktis
+郵便局;ゆうびんきょく;kantor pos
+低い;ひくい;rendah
+短い;みじかい;pendek
+近い;ちかい;dekat
+近所;きんじょ;tetangga
+最近;さいきん;akhir-akhir ini
+遠い;とおい;jauh
+遠足;えんそく;piknik
+遠慮;えんりょ;sungkan(merasa tidak enak)
+弱い;よわい;lemah
+強い;つよい;kuat
+暗い;くらい;gelap
+明るい;あかるい;terang
+説明;せつめい;penjelasan
+明けましておめでとう;明けましておめでとう;selamat tahun baru
+明日;あした;besok
+悪い;わるい;buruk
+利用;りよう;penggunaan,pemanfaatan
+旅行;りょこう;traveling(bepergian)
+旅館;りょかん;penginapan tradisional Jepang
+美術館;びじゅつかん;museum seni
+有名;ゆうめい;terkenal
+去年;きょねん;tahun lalu
+写す;うつす;mencopy,menyalin
+写真;しゃしん;foto
+真ん中;まんなか;ditengah-tengah
+夕方;ゆうがた;sore
+夕食;ゆうしょく;makan malam
+あの方;あのかた;beliau
+〜方;〜かた;cara
+両方;りょうほう;keduanya
+ご飯;ごはん;nasi
+朝ご飯;あさごはん;sarapan
+昼ご飯;ひるごはん;makan siang
+晩ご飯;ばんごはん;makan malam
+主人;しゅじん;suami
+医者;いしゃ;dokter
+医学;いがく;ilmu kedokteran
+学者;がくしゃ;ilmuwan
+歯医者;はいしゃ;dokter gigi
+店員;てんいん;pegawai toko
+駅員;えきいん;pegawai stasiun
+会社員;かいしゃいん;pegawai kantor
+銀行員;ぎんこういん;pegawai bank
+国民;こくみん;masyarakat
+市民;しみん;warga kota
+運転;うんてん;menyetir
+運転手;うんてんしゅ;supir
+自転車;じてんしゃ;sepeda
+歌;うた;lagu
+歌う;うたう;menyanyi
+歌手;かしゅ;penyanyi
+小説;しょうせつ;novel
+小説家;しょうせつか;penulis novel
+家;いえ;rumah
+家族;かぞく;keluarga
+家庭;かてい;rumah tangga
+今朝;けさ;pagi tadi
+朝食;ちょうしょく;sarapan
+昼間;ひるま;siang hari
+昼食;ちゅうしょく;makan siang
+春;はる;musim semi
+春休み;はる休み;libur musim semi
+夏;なつ;musim panas
+夏休み;なつやすみ;libur musim panas
+秋;あき;musim gugur
+冬;ふゆ;musim dingin
+冬休み;ふゆ休み;libur musim dingin
+京都;きょうと;Kyoto
+東京;とうきょう;Tokyo
+東京都;とうきょうと;kota Tokyo
+都合;つごう;kondisi(waktu)
+都道府県;とどうふけん;47 prefektur di Jepang
+青森県;あおもりけん;Aomori
+町;まち;kota
+〜町;〜ちょう;kota
+料理;りょうり;masakan
+理由;りゆう;alasan
+米;こめ;beras
+洗う;あらう;mencuci
+お手洗い;おてあらい;toilet
+洗濯;せんたく;mencuci(baju)
+野球;やきゅう;baseball
+野菜;やさい;sayuran
+お酒;おさけ;sake
+牛肉;ぎゅうにく;daging sapi
+鳥肉;とりにく;daging ayam
+豚肉;ぶたにく;daging babi
+味;あじ;rasa
+趣味;しゅみ;hobi
+興味;きょうみ;minat
+意味;いみ;arti
+映画;えいが;film
+映画館;えいがかん;bioskop
+漫画;まんが;komik Jepang
+時計;とけい;jam(alat)
+計画;けいかく;rencana,strategi
+地図;ちず;peta
+図書館;としょかん;perpustakaan
+仕事;しごと;pekerjaan
+仕方;しかた;cara
+食事;しょくじ;makanan
+用事;ようじ;keperluan
+用意;ようい;persiapan
+地理;ちり;geografi
+地震;じしん;gempa bumi
+地下鉄;ちかてつ;subway(kereta bawah tanah)
+犬;いぬ;anjing
+太い;ふとい;tebal
+太る;ふとる;gemuk
+区;く;kecamatan
+思う;おもう;memikirkan
+思い出す;おもいだす;mengingat,teringat
+和室;わしつ;ruangan ala Jepang
+和菓子;わがし;kue Jepang
+平和;へいわ;perdamaian
+知る;しる;tahu,kenal
+知らせる;しらせる;memberi tahu
+水族館;すいぞくかん;akuarium
+青い;あおい;biru
+光る;ひかる;bersinar
+光;ひかり;sinar,cahaya
+池;いけ;kolam
+電池;でんち;baterai
+別;べつ;lainnya
+特別;とくべつ;spesial,khusus
+別れる;わかれる;berpisah
+寒い;さむい;dingin
+暑い;あつい;panas
+蒸し暑い;むしあつい;panas & lembab
+重い;おもい;berat
+軽い;かるい;ringan
+広い;ひろい;luas
+元気;げんき;sehat
+病院;びょういん;rumah sakit
+病気;びょうき;sakit
+起きる;おきる;bangun
+起こす;おこす;membangunkan
+寝る;ねる;tidur
+寝坊;ねぼう;kesiangan
+始まる;はじまる;mulai
+始める;はじめる;memulai
+終わる;おわる;selesai

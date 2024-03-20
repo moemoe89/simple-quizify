@@ -93,7 +93,7 @@
 <div id="quizArea">
     <div id="notificationArea"></div>
     <div id="question"></div>
-    <input type="text" id="answerInput" autocomplete="off" onkeypress="checkEnter(event)">
+    <input type="text" id="answerInput" autocomplete="off" onkeypress="checkEnter(event)" />
     <button onclick="checkAnswer()" class="button">Submit</button>
 </div>
 
@@ -139,8 +139,12 @@
 
         for (var j = 1; j < lines.length; j++) { // Start from index 1 to skip the header
             var parts = lines[j].split(delimiter);
-            if (parts.length === 2) {
-                questions.push({ question: parts[0].trim(), answer: parts[1].trim().toLowerCase() });
+            if (parts.length >= 2) {
+                var description = "";
+                if(parts.length === 3){
+                    description = parts[2].trim()
+                }
+                questions.push({ question: parts[0].trim(), answer: parts[1].trim().toLowerCase(), description: description });
             }
         }
 
@@ -205,10 +209,22 @@
     function checkAnswer() {
         var userAnswer = document.getElementById('answerInput').value.trim().toLowerCase();
         var currentQuestion = questions.find(q => q.question === document.querySelector('.question').textContent);
-        var isCorrect = userAnswer === currentQuestion.answer;
+        var correctAnswer = currentQuestion.answer.toLowerCase();
+
+        var isCorrect = false;
+
+        if(correctAnswer.includes("/")) {
+            // Split correct answer by "/" and trim each part
+            var correctAnswerOpts = correctAnswer.split("/").map(part => part.trim());
+
+            // Check if user's answer matches any of the correct answers
+            isCorrect = correctAnswerOpts.some(answer => answer === userAnswer);
+        } else {
+            isCorrect = userAnswer === currentQuestion.answer;
+        }
 
         // Add the answered question to the list
-        answeredQuestions.unshift({ number: currentQuestionNumber, question: currentQuestion.question, userAnswer: userAnswer, correctAnswer: currentQuestion.answer, isCorrect: isCorrect });
+        answeredQuestions.unshift({ number: currentQuestionNumber, question: currentQuestion.question, userAnswer: userAnswer, correctAnswer: correctAnswer, isCorrect: isCorrect, description: currentQuestion.description });
 
         // Update the notification area with answered questions
         updateNotificationArea();
@@ -242,6 +258,7 @@
             if (!qa.isCorrect) {
                 message += " | Correct Answer: " + qa.correctAnswer;
             }
+            message += " | Description: " + qa.description;
             displayNotification(message, qa.isCorrect);
         });
     }

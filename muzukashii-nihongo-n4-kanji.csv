@@ -26,11 +26,11 @@ Question;Answer;Description
 台風;たいふう;angin topan
 風邪;かぜ;masuk angin
 台所;だいどころ;dapur
-〜台;〜だい;untuk menghitung kendaraan, barang elektronik
+〜台;〜だい/だい;untuk menghitung kendaraan, barang elektronik
 同じ;おなじ;sama
 回る;まわる;berputar
 回す;まわす;memutar
-〜回;〜かい;kali(satu kali, dua kali, dsb)
+〜回;〜かい/かい;kali(satu kali, dua kali, dsb)
 今晩;こんばん;malam ini
 勉強;べんきょう;belajar
 進む;すすむ;maju
@@ -58,7 +58,7 @@ Question;Answer;Description
 暗い;くらい;gelap
 明るい;あかるい;terang
 説明;せつめい;penjelasan
-明けましておめでとう;明けましておめでとう;selamat tahun baru
+明けましておめでとう;あけましておめでとう;selamat tahun baru
 明日;あした;besok
 悪い;わるい;buruk
 利用;りよう;penggunaan,pemanfaatan
@@ -73,7 +73,7 @@ Question;Answer;Description
 夕方;ゆうがた;sore
 夕食;ゆうしょく;makan malam
 あの方;あのかた;beliau
-〜方;〜かた;cara
+〜方;〜かた/かた;cara
 両方;りょうほう;keduanya
 ご飯;ごはん;nasi
 朝ご飯;あさごはん;sarapan
@@ -106,12 +106,12 @@ Question;Answer;Description
 昼間;ひるま;siang hari
 昼食;ちゅうしょく;makan siang
 春;はる;musim semi
-春休み;はる休み;libur musim semi
+春休み;はるやすみ;libur musim semi
 夏;なつ;musim panas
 夏休み;なつやすみ;libur musim panas
 秋;あき;musim gugur
 冬;ふゆ;musim dingin
-冬休み;ふゆ休み;libur musim dingin
+冬休み;ふゆやすみ;libur musim dingin
 京都;きょうと;Kyoto
 東京;とうきょう;Tokyo
 東京都;とうきょうと;kota Tokyo
@@ -119,7 +119,7 @@ Question;Answer;Description
 都道府県;とどうふけん;47 prefektur di Jepang
 青森県;あおもりけん;Aomori
 町;まち;kota
-〜町;〜ちょう;kota
+〜町;〜ちょう/ちょう;kota
 料理;りょうり;masakan
 理由;りゆう;alasan
 米;こめ;beras
@@ -194,7 +194,6 @@ Question;Answer;Description
 住む;すむ;tinggal
 住所;じゅうしょ;alamat
 所;ところ;tempat
-台所;だいどころ;dapur
 場所;ばしょ;tempat
 注意;ちゅうい;memperingatkan
 注文;ちゅうもん;memesann

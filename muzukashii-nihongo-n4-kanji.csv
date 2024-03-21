@@ -135,7 +135,6 @@ Question;Answer;Description
 味;あじ;rasa
 趣味;しゅみ;hobi
 興味;きょうみ;minat
-意味;いみ;arti
 映画;えいが;film
 映画館;えいがかん;bioskop
 漫画;まんが;komik Jepang
@@ -201,7 +200,6 @@ Question;Answer;Description
 意見;いけん;pendapat
 教える;おしえる;mengajar
 教育;きょういく;pendidikan
-教室;きょうしつ;ruang kelas
 出発;しゅっぱつ;berangkat
 発音;はつおん;pelafalan
 音;おと;bunyi
@@ -228,7 +226,6 @@ Question;Answer;Description
 ３番線;３ばんせん;peron nomor 3
 番号;ばんごう;nomor
 １０２号室;１０２ごうしつ;kamar nomor 102
-全部;ぜんぶ;semua
 安全;あんぜん;aman
 全然;ぜんぜん;sama sekali
 西洋;せいよう;barat(lagu,baju)
@@ -251,3 +248,123 @@ Question;Answer;Description
 首;くび;leher
 顔;かお;wajah
 頭;あたま;kepala
+取る;とる;mengambil
+取り替える;とりかえる;mengganti
+押す;おす;menekan
+押し入れ;おし入れ;lemari oshiire
+引く;ひく;menarik
+引き出し;ひきだし;laci
+止まる;とまる;berhenti
+止める;とめる;memberhentikan
+中止する;ちゅうしする;membatalkan
+使用禁止;しようきんし;tidak boleh digunakan
+開く;あく,ひらく;membuka,terbuka
+開ける;あける;membuka
+閉まる;しまる;tutup
+閉める;しめる;menutup
+部長;ぶちょう;general manager
+全部;ぜんぶ;semua
+学部;がくぶ;fakultas
+部屋;へや;ruangan,kamar
+本屋;ほんや;toko buku
+花屋;はなや;toko bunga
+屋上;おくじょう;atap, roof top
+産業;さんぎょう;industri(semua)
+お土産;おみやげ;oleh-oleh
+姉;あね;kakak perempuan
+お姉さん;おねえさん;kakak perempuan
+兄;あに;kakak laki-laki
+お兄さん;おにいさん;kakak-laki-laki
+世界;せかい;dunia
+世話をする;せわをする;menjaga,merawat
+世界中;せかいじゅう;seluruh dunia
+持つ;もつ;membawa
+気持ち;きもち;perasaan
+金持ち;かねもち;orang kaya
+待つ;まつ;menunggu
+招待する;しょうたいする;mengundang(acara formal)
+特に;とくに;terutama
+特急;とうきゅう;limited express
+林;はやし;hutan
+森;もり;hutan rimba
+村;むら;desa
+曜日;ようび;hari
+何曜日;なんようび;hari apa
+質問する;しつもんする;bertanya
+問題;もんだい;soal,masalah
+宿題;しゅくだい;pekerjaan rumah(PR)
+売る;うる;menjual
+売り場;うりば;tempat penjualan
+借りる;かりる;meminjam
+貸す;かす;meminjamkan
+練習;れんしゅう;latihan
+習う;ならう;belajar(dari orang lain)
+予習;よしゅう;belajar persiapan
+復習;ふくしゅう;belajar mengulang(mereview)
+習慣;しゅうかん;kebiasaan
+乗り物;のりもの;kendaraan
+乗り換える;のりかえる;transfer kendaraan
+座る;すわる;duduk
+死ぬ;しぬ;mati
+不便;ふべん;tidak praktis
+体;からだ;badan
+働く;はたらく;bekerja
+薬;くすり;obat
+奥さん;おくさん;istri
+急に;きゅうに;tiba-tiba
+急ぐ;いそぐ;buru-buru
+急行;きゅうこう;ekspress
+正しい;ただしい;benar
+お正月;おしょうがつ;tahun baru
+試合;しあい;pertandingan
+試験;しけん;ujian
+経験;けいけん;pengalaman
+考える;かんがえる;berpikir
+心;こころ;hati
+安心;あんしん;tenang,lega
+声;こえ;suara(dari mulut)
+合う;あう;cocok
+間に合う;まにあう;keburu
+合格;ごうかく;lulus(ujian)
+漢字;かんじ;kanji
+字;じ;huruf
+文字;もじ;huruf
+切る;きる;memotong
+切れる;きれる;putus,terpotong
+大切;たいせつ;penting
+切手;きって;perangko
+楽しい;たのしい;menyenangkan
+楽しむ;たのしむ;menikmati
+親切;しんせつ;ramah
+両親;りょうしん;kedua orang tua
+自分;じぶん;diri sendiri
+自動;じどう;otomatis
+自由;じゆう;bebas
+工場;こうじょう;pabrik
+駐車場;ちゅうしゃじょう;tempat parkir
+教室;きょうしつ;ruang kelas
+会議室;かいぎしつ;ruang meeting
+鳥;とり;burung
+小鳥;ことり;burung kecil
+銀行;ぎんこう;bank
+食堂;しょくどう;kantin
+講堂;こうどう;ruang auditorium
+入院する;にゅういんする;masuk rumah sakit
+大学院;だいがくいん;jenjang S2,S3
+歩く;あるく;berjalan kaki
+散歩する;さんぽする;jalan-jalan
+走る;はしる;berlari
+海;うみ;laut
+海岸;かいがん;pinggiran laut
+帰る;かえる;pulang
+英語;えいご;bahasa inggris
+お茶;おちゃ;teh
+紅茶;こうちゃ;teh hitam
+喫茶店;きっさてん;kafe
+答え;こたえ;jawaban
+答える;こたえる;menjawab
+紙;かみ;kertas
+手紙;てがみ;surat
+私;わたし/わたくし;saya
+送る;おくる;mengirim
+放送する;ほうそうする;menyiarkan

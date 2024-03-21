@@ -88,6 +88,14 @@
         <input type="file" id="csvFileInput" accept=".csv">
         <button type="submit" id="uploadButton" class="button">Upload</button>
     </form>
+
+    <hr/>
+    <h1>Choose CSV File</h1>
+    <select id="csvSelect" style="padding: 10px">
+        <option value="https://raw.githubusercontent.com/moemoe89/simple-quizify/main/muzukashii-nihongo-n4-kanji.csv">Muzukashii Nihongo N4 Kanji</option>
+        <option value="https://raw.githubusercontent.com/moemoe89/simple-quizify/main/muzukashii-nihongo-n5-kanji.csv">Muzukashii Nihongo N5 Kanji</option>
+    </select>
+    <button onclick="loadSelectedListCSV()" class="button">Load CSV</button>
 </div>
 
 <div id="quizArea">
@@ -175,10 +183,43 @@
             shuffledQuestions = [];
             currentQuestionNumber = 1;
             correctAnswers = 0;
+            totalQuestions = 0;
             readQuestionsFromCSV(selectedFile);
             document.getElementById('uploadContainer').style.display = 'none';
             document.getElementById('quizArea').style.display = 'block';
         }
+    }
+
+    function loadSelectedListCSV() {
+        var csvSelect = document.getElementById("csvSelect");
+        var selectedValue = csvSelect.value;
+
+        if (!selectedValue) {
+            console.error("No CSV file selected.");
+            return;
+        }
+
+        fetch(selectedValue)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.text();
+            })
+            .then(csv => {
+                questions = [];
+                answeredQuestions = [];
+                shuffledQuestions = [];
+                currentQuestionNumber = 1;
+                correctAnswers = 0;
+                totalQuestions = 0;
+                parseCSV(csv);
+                document.getElementById('uploadContainer').style.display = 'none';
+                document.getElementById('quizArea').style.display = 'block';
+            })
+            .catch(error => {
+                console.error('There was a problem with the fetch operation:', error);
+            });
     }
 
     // Function to select a question from shuffledQuestions

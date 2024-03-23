@@ -331,7 +331,6 @@ Question;Answer;Description
 家内;かない;istri(sendiri)
 家庭;かてい;rumah tangga
 家族;かぞく;keluarga
-民族;みんぞく;rakyat
 水族館;すいぞくかん;akuarium
 私;わたし/わたくし;saya
 私立大学;しりつだいがく;universitas swasta
@@ -342,7 +341,6 @@ Question;Answer;Description
 自然;しぜん;alam
 親;おや;orang tua
 母親;ははおや;ibu
-親切;しんせつ;ramah
 親しい;したしい;dekat(orang),akrab
 両親;りょうしん;kedua orang tua
 両方;りょうほう;keduanya
@@ -385,8 +383,7 @@ Question;Answer;Description
 民族;みんぞく;bangsa,suku
 民主主義;みんしゅしゅぎ;demokrasi
 服;ふく;baju
-洋服;ようふく;baju ala barat
-和服;わふく;baju ala Jepang
+和服;わふく;pakaian Jepang
 制服;せいふく;seragam
 犬;いぬ;anjing
 子犬;こいぬ;anak anjing
@@ -394,3 +391,36 @@ Question;Answer;Description
 同じ;おなじ;sama
 同時に;どうじに;pada saat yang sama
 同級生;どうきゅうせい;teman sekelas
+米;こめ;beras
+米国;べいこく;amerika
+白米;はくまい;nasi putih
+料金;りょうきん;biaya
+資料;しりょう;dokumen
+材料;ざいりょう;bahan(material)
+料理;りょうり;masakan
+地理;ちり;geografi
+無理な;むりな;mustahil
+理由;りゆう;alasan
+肉;にく;daging
+牛肉;ぎゅうにく;daging sapi
+肉屋;にくや;tukang daging
+筋肉;きんにく;otot
+鳥;とり;burung
+小鳥;ことり;burung kecil
+白鳥;はくちょう;angsa
+野原;のはら;medan,dataran,padang,bidang
+野鳥;やちょう;burung liar
+分野;ぶんや;bidang(ilmu)
+野菜;やさい;sayuran
+菜食;さいしょく;diet vegetarian
+青菜;あおな;Sayuran hijau
+お茶;おちゃ;teh
+喫茶店;きっさてん;kafe
+紅茶;こうちゃ;teh hitam
+ご飯;ごはん;nasi
+夕飯;ゆうはん;makan malam
+昼飯;ひるめし;makan siang
+味;あじ;rasa
+意味;いみ;makna,arti
+趣味;しゅみ;hobi
+興味;きょうみ;minat

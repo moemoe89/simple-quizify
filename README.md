@@ -4,7 +4,7 @@ This simple web application allows you to create and take quizzes based on quest
 
 ## Features
 
-- Upload a CSV file containing questions and answers.
+- Upload a CSV file containing questions and answers. The description can be optional.
 - Take a quiz generated from the uploaded CSV file.
 - Receive instant feedback on your answers.
 - View a summary of your quiz results.
@@ -14,7 +14,7 @@ This simple web application allows you to create and take quizzes based on quest
 1. **Upload CSV File:**
     - Click on the "Upload CSV File" button.
     - Select a CSV file containing your questions and answers.
-    - The CSV file should have two columns: "Question" and "Answer".
+    - The CSV file should have two columns: "Question" and "Answer". "Description" column can leave as optional.
 
 2. **Take the Quiz:**
     - Once the CSV file is uploaded, the quiz interface will appear.
@@ -23,11 +23,12 @@ This simple web application allows you to create and take quizzes based on quest
 3. **View Results:**
     - After answering all questions, a summary of your quiz results will be displayed.
     - The summary includes the total number of questions, the number of correct and incorrect answers, and the percentage score.
+    - You can retake the whole questions or only the incorrect answers.
 
 ## Example CSV Format
 
 The CSV file should follow this format:
 
-|      Question       | Answer |
-|:-------------------:|:------:|
-| What is your blood? |   A    |
+|      Question       | Answer | Description |
+|:-------------------:|:------:|:-----------:|
+| What is your blood? |   A    |      -      |

@@ -108,6 +108,7 @@
 </div>
 
 <script>
+    var originalQuestions = [];
     var questions = [];
     var answeredQuestions = [];
     var shuffledQuestions = [];
@@ -160,6 +161,8 @@
 
         totalQuestions = questions.length
 
+        // save the original questions
+        originalQuestions = questions
         // Shuffle the questions
         shuffledQuestions = shuffle(questions.map(q => q.question));
         // Display the first question
@@ -349,7 +352,8 @@
     // Function to replay the entire quiz
     function replayQuiz() {
         // Reset variables
-        shuffledQuestions = shuffle(questions.map(q => q.question));
+        shuffledQuestions = shuffle(originalQuestions.map(q => q.question));
+        totalQuestions = originalQuestions.length
         currentQuestionNumber = 1;
         correctAnswers = 0;
         answeredQuestions = [];

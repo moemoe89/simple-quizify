@@ -29,7 +29,6 @@ Question;Answer;Description
 明るい;あかるい;terang
 明日;あした/あす;besok
 説明;せつめい;penjelasan
-発明;はつめい;penemuan
 暗い;くらい;gelap
 暗号;あんごう;kriptografi,kode rahasia
 遠い;とおい;jauh
@@ -90,7 +89,7 @@ Question;Answer;Description
 低下する;ていかする;merosot,menurun
 低気圧;ていきあつ;tekanan rendah
 広い;ひろい;luas
-広場;ひろば;plaza
+広場;ひろば;plaza,square
 広大な;こうだいな;luas
 短い;みじかい;pendek
 短時間;たんじかん;waktu singkat
@@ -171,7 +170,6 @@ Question;Answer;Description
 生産する;せいさんする;menghasilkan
 財産;ざいさん;aset,properti,kekayaan
 産業;さんぎょう;industri(semua)
-工業;こうぎょう;industri
 授業;じゅぎょう;pelajaran,kelas
 本日休業;ほんじつきゅうぎょう;tutup hari ini
 林;はやし;hutan
@@ -455,11 +453,8 @@ Question;Answer;Description
 お手洗い;おてあらい;toilet
 洗濯;せんたく;mencuci(baju)
 注意;ちゅうい;memperingatkan
-注文;ちゅうもん;memesann
+注文;ちゅうもん;memesan
 注射;ちゅうしゃ;suntikan
-場所;ばしょ;tempat
-工場;こうじょう;pabrik
-広場;ひろば;plaza,square
 運動場;うんどうじょう;playground
 建てる;たてる;membangun
 建物;たてもの;bangunan
@@ -482,10 +477,8 @@ Question;Answer;Description
 工業;こうぎょう;industri
 工作;こうさく;kerajinan tangan
 図;ず;figur,gambar
-地図;ちず;peta
 図書館;としょかん;perpustakaan
-合図;あいず;tanda,isyarat,sinya;
-信号;しんごう;lampu lalu lintas
+合図;あいず;tanda,isyarat,sinya
 電話番号;でんわばんごう;nomor telepon
 １０２号室;１０２ごうしつ;kamar nomor 102
 号令;ごうれい;memerintah
@@ -499,7 +492,6 @@ Question;Answer;Description
 動く;うごく;bergerak
 運動;うんどう;olahraga
 自動車;じどうしゃ;kendaraan,mobil otomatis
-動物;どうぶつ;hewan
 乗る;のる;naik
 タクシー乗り場;タクシーのりば/のりば;halte taksi
 乗車券;じょうしゃけん;tiket,karcis
@@ -525,3 +517,85 @@ Question;Answer;Description
 着く;つく;tiba, sampai
 着物;きもの;kimono
 着信;ちゃくしん;email masuk
+漢字;かんじ;kanji
+漢方薬;かんぽうやく;obat herbal Cina
+字;じ;huruf
+活字;かつじ;jenis percetakan
+習字;しゅうじ;kaligrafi
+文;ぶん;kalimat
+文学;ぶんがく/もじ;literatur/karakter,huruf
+教える;おしえる;mengajar
+教会;きょうかい;gereja
+習う;ならう;belajar(dari orang lain)
+練習;れんしゅう;latihan
+復習;ふくしゅう;belajar mengulang(mereview)
+習慣;しゅうかん;kebiasaan
+英語;えいご;bahasa inggris
+英国;えいこく;Inggris
+英雄;えいゆう;pahlawan
+考える;かんがえる;berpikir
+考古学;こうこがく;arkeologi
+参考書;さんこうしょ;buku referensi
+研究;けんきゅう;penelitian
+研究者;けんきゅうしゃ;peneliti
+研究室;けんきゅうしつ;ruang penelitian
+問;とい;pertanyaan
+問題;もんだい;soal,masalah
+質問する;しつもんする;bertanya
+題名;だいめい;judul
+宿題;しゅくだい;pekerjaan rumah(PR)
+話題;わだい;topik,tema
+試合;しあい;pertandingan
+試験;しけん;ujian
+入試;にゅうし;ujian masuk
+試す;ためす;mencoba
+実験;じっけん;percobaan
+経験;けいけん;pengalaman
+受験する;じゅけんする;mengambil ujian
+品質;ひんしつ;kualitas
+間に合う;まにあう;keburu
+場合;ばあい;kasus
+答える;こたえる;menjawab
+答え;こたえ;jawaban
+解答;かいとう;menjawab
+子供用;こどもよう;untuk anak kecil
+紙;かみ;kertas
+手紙;てがみ;surat
+コピー用紙;コピーようし/ようし;kertas fotokopi
+新聞紙;しんぶんし;selembar koran
+用意;ようい;persiapan
+意見;いけん;pendapat
+引く;ひく;menarik
+引き出し;ひきだし;laci
+引力;いんりょく;gravitasi
+開ける;あける;membuka
+開く;あく/ひらく;membuka,terbuka
+開店;かいてん;pembukaan toko
+閉める;しめる;menutup
+閉じる;とじる;menutup
+閉館する;へいかんする;menutup fasilitas
+閉会式;へいかいしき;sesi penutupan
+去年;きょねん;tahun lalu
+過去;かこ;masa lalu
+消去;しょうきょ;menghapus
+死ぬ;しぬ;mati
+死者;ししゃ;orang mati
+急死;きゅうし;kematian mendadak
+病死;びょうし;mati karena penyaki
+集める;あつめる;mengumpulkan
+集まる;あつまる;berkumpul
+文集;ぶんしゅう;kumpulan teks
+集合する;しゅうごうする;berkumpul bersama
+知る;しる;tahu,kenal
+知り合い;しりあい;kenalan
+通知;つうち;pemberitahuan
+知識;ちしき;pengetahuan
+売る;うる;menjual
+売店;ばいてん;stan(warung)
+売り場;うりば;tempat penjualan
+自動販売機;じどうはんばいき;mesin penjual otomatis
+小説;しょうせつ;novel
+思う;おもう;memikirkan
+思い出す;おもいだす;mengingat,teringat
+思い出;おもいで;ingatan
+思想;しそう;pikiran

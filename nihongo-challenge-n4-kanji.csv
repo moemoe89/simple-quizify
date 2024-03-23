@@ -201,7 +201,6 @@ Question;Answer;Description
 日光;にっこう;sinar matahari
 観光;かんこう;melihat-lihat
 台;だい;meja
-台所;だいどころ;dapur
 〜台;〜だい/だい;untuk menghitung kendaraan, barang elektronik
 土台;どだい;pondasi
 風;かぜ;angin
@@ -233,69 +232,98 @@ Question;Answer;Description
 涼しい;すずしい;sejuk
 涼風;りょうふう;涼風
 体;からだ;badan
-;;
-;;
+体力;たいりょく;kekuatan fisik
 頭;あたま;kepala
-;;
-;;
+頭がいい;あたまがいい;pintar
+頭痛;ずつう;sakit kepala
 顔;かお;wajah
-;;
-;;
+顔色;かおいろ;wajah,kulit,muka
 首;くび;leher
-;;
-;;
+手首;てくび;pergelangan tangan
 心;こころ;hati
 安心;あんしん;tenang,lega
-;;
-;;
+心配する;しんぱいする;khawatir
+中心;ちゅうしん;
 声;こえ;suara(dari mulut)
-;;
+大声;おおごえ;suara keras
 病気;びょうき;sakit
 病院;びょういん;rumah sakit
-;;
-;;
+病人;病人;orang sakit
+急病;きゅうびょう;penyakit mendadak
 薬;くすり;obat
-;;
-;;
-;;
-;;
-;;
+目薬;めぐすり;obat tetes mata
+薬品;やくひん;obat,bahan kimia
+科学;かがく;sains
+教科書;きょうかしょ;buku pelajaran
+外科;げか;operasi
 内側;うちがわ;sisi dalam
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
-;;
+内科;ないか;penyakit dalam
+車内;しゃない;di dalam mobil
+案内する;あんないする;memandu
+朝;あさ;pagi
+今朝;けさ;pagi tadi
+朝日;あさひ;matahari pagi
+朝食;ちょうしょく;sarapan
+昼;ひる;siang
+昼休み;ひる休み;istirahat siang
+昼ご飯;ひるごはん;makan siang
+昼食;ちゅうしょく;makan siang
+夜;よる;malam
+今夜;こんや;malam ini
+夜店;よみせ;pekan raya malam
+夜食;やしょく;camilan tengah malam
+夕日;ゆうひ;matahari terbenam
+夕食;ゆうしょく;makan malam
+七夕;たなばた;festival bintang
+読み方;よみかた;cara baca
+夕方;ゆうがた;sore
+あの方;あのかた;beliau
+方法;ほうほう;metode
+今晩;こんばん;malam ini
+毎晩;まいばん;setiap malam
+晩ご飯;ばんごはん;makan malam
+時計;とけい;jam(alat)
+計る;はかる;mengukur
+合計;ごうけい;
+日曜日;にちようび;minggu
+水曜日;すいようび;rabu
+何曜日;なんようび;hari apa
+以上;いじょう;lebih,diatas
+以下;いか;kurang,dibawah
+以外;いがい;selain
+以前;いぜん;sebelum
+一度;いちど;satu kali
+今度;こんど;lain kali
+２５度;２５ど/ど;25 derajat
+温度;おんど;suhu
+止まる;とまる;berhenti
+中止する;ちゅうしする;membatalkan
+一時停止;いちじていし;berhenti sebentar
+歩く;あるく;berjalan kaki
+散歩する;さんぽする;jalan-jalan
+進歩する;しんぽする;membuat kemajuan(progress)
+横断歩道;おうだんほどう;zebra cross
+走る;はしる;berlari
+力走する;りきそうする;lari sekencang mungkin
+起きる;おきる;bangun
+早起き;はやおき;orang yang suka bangun pagi
+起業家;きぎょうか;pengusaha
+持つ;もつ;membawa
+気持ち;きもち;perasaan
+持ち物;もちもの;kepunyaan(barang)
+支持する;しじする;mendukung
+待つ;まつ;menunggu
+待ち合わせ;まちあわせ;janjian
+招待する;しょうたいする;mengundang(acara formal)
+期待する;きたいする;harapan
+借りる;かりる;meminjam
+借金;しゃっきん;hutang
+貸す;かす;meminjamkan
+貸家;かしや;rumah untuk disewakan
+賃貸マンション;ちんたいマンション;apartemen sewa
+始める;はじめる;memulai
+開始する;かいしする;mulai
+始発;しはつ;kereta pertama
+終わる;おわる;selesai
+終電;しゅうでん;kereta terakhir
+最終回;さいしゅうかい;episode terakhir

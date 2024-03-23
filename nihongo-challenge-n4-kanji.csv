@@ -160,7 +160,7 @@ Question;Answer;Description
 者;もの;orang
 歯医者;はいしゃ;dokter gigi
 学者;がくしゃ;ilmuwan
-作者;さくしゃ;penulis,pengarang
+作者;さくしゃ;penulis,pengarang(misal creator)
 働く;はたらく;bekerja
 労働者;ろうどうしゃ;buruh,pekerja
 本屋;ほんや;toko buku
@@ -424,3 +424,36 @@ Question;Answer;Description
 意味;いみ;makna,arti
 趣味;しゅみ;hobi
 興味;きょうみ;minat
+代わる;かわる;menggantikan,bergantian
+代わりに;かわりに;sebagai pengganti
+使う;つかう;menggunakan
+大使館;たいしかん;kedutaan besar
+使用中;しようちゅう;yang dipakai
+作る;つくる;membuat
+作文;さくぶん;karangan
+作家;さっか;penulis(misal penulis)
+作業;さぎょう;operasi(pekerjaan)
+文化;ぶんか;budaya
+化学;かがく;kimia
+映画化;えいがか;adaptasi film
+信じる;しんじる;meyakini,mempercayai
+信号;しんごう;lampu lalu lintas
+自信;じしん;percaya diri
+通信;つうしん;komunikasi(seperti dalam jaringan komunikasi)
+進む;すすむ;maju
+先進国;せんしんこく;negara maju
+送る;おくる;mengirim
+送金;そうきん;transfer uang
+放送する;ほうそうする;menyiarkan
+送信;そうしん;mengirim(email)
+返す;かえす;kembali,mengembalikan
+返事;へんじ;membalas,menjawab
+返信;へんしん;membalas(email)
+くり返る;くりかえす;mengulang
+洗う;あらう;mencuci
+手洗い;てあらい;cuci tangan
+お手洗い;おてあらい;toilet
+洗濯;せんたく;mencuci(baju)
+注意;ちゅうい;memperingatkan
+注文;ちゅうもん;memesann
+注射;ちゅうしゃ;suntikan

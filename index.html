@@ -159,12 +159,11 @@
             }
         }
 
-        totalQuestions = questions.length
-
         // save the original questions
         originalQuestions = questions
         // Shuffle the questions
         shuffledQuestions = shuffle(questions.map(q => q.question));
+        totalQuestions = shuffledQuestions.length
         // Display the first question
         selectRandomQuestion();
     }
@@ -353,7 +352,7 @@
     function replayQuiz() {
         // Reset variables
         shuffledQuestions = shuffle(originalQuestions.map(q => q.question));
-        totalQuestions = originalQuestions.length
+        totalQuestions = shuffledQuestions.length
         currentQuestionNumber = 1;
         correctAnswers = 0;
         answeredQuestions = [];
@@ -372,11 +371,10 @@
 
         // Reset variables with incorrect questions
         shuffledQuestions = shuffle(incorrectQuestions.map(qa => qa.question));
+        totalQuestions = shuffledQuestions.length
         currentQuestionNumber = 1;
         correctAnswers = 0;
         answeredQuestions = [];
-
-        totalQuestions = incorrectQuestions.length
 
         // Clear notification area
         document.getElementById('notificationArea').textContent = '';

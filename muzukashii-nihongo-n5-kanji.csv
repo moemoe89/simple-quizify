@@ -3,20 +3,20 @@ Question;Answer;Description
 お先に;おさきに;duluan
 先月;せんげつ;bulan lalu
 生活;せいかつ;kehidupan
-生徒;;murid
+生徒;せいと;murid
 誕生日;たんじょうび;hari ulang tahun
 学生;がくせい;siswa
 学校;がっこう;sekolah
 日本人;にほんじん;orang Jepang
 人;じん;orang
-〜人;〜にん;menghitung orang
+〜人;〜にん/にん;menghitung orang
 大人;おとな;dewasa
 外国人;がいこくじん;orang asing
 国;くに;negara
 男の子;おとこのこ;anak laki-laki
 男の人;おとこのひと;seorang laki-laki
 彼女;かのじょ;dia(perempuan),pacar(perempuan)
-女の人;おんあのひと;seorang perempuan
+女の人;おんなのひと;seorang perempuan
 女の子;おんなのこ;anak perempuan
 子供;こども;anak-anak
 友達;ともだち;teman
@@ -34,12 +34,12 @@ Question;Answer;Description
 英語;えいご;bahasa Inggris
 本;ほん;buku
 日本;にほん;Jepang
-〜本;〜ほん/〜ぽん/〜ぼん;untuk menghitung benda panjang
+〜本;〜ほん/〜ぽん/〜ぼん/ほん/ぽん/ぼん;untuk menghitung benda panjang
 何時;なんじ;jam berapa
 何時間;なんじかん;berapa jam
 何語;なんご;bahasa apa
 何;なに;apa
-9時;9じ;jam 9
+９時;９じ/9じ;jam 9
 四時間;よじかん;4 jam
 時計;とけい;jam(alat)
 五分;ごふん;5 menit
@@ -49,7 +49,7 @@ Question;Answer;Description
 一週間;いっしゅうかん;satu minggu
 間に合う;まにあう;keburu
 この間;このあいだ;beberapa waktu yang lalu
-七時半;;jam 7.30
+七時半;しちじはん;jam 7.30
 一時間半;いちじかんはん;1,5 jam
 午後;ごご;p.m.
 午前;ごぜん;a.m.
@@ -78,14 +78,14 @@ Question;Answer;Description
 大切;たいせつ;penting
 大きい;おおきい;besar
 小学校;しょうがっこう;sekolah dasar
-小さい;ちいさいい;kecil
+小さい;ちいさい;kecil
 安い;やすい;murah
 安全;あんぜん;aman
 安心;あんしん;tenang,lega
 高い;たかい;mahal
 高校;こうこう;Sekolah Menengah Atas
 新しい;あたらしい;baru
-新聞;しゅんぶん;koran
+新聞;しんぶん;koran
 古い;ふるい;tua
 早い;はやい;cepat
 遅い;おそい;lambat,lama,larut
@@ -102,7 +102,6 @@ Question;Answer;Description
 外;そと;luar
 聞く;きく;mendengar,bertanya
 聞こえる;きこえる;terdengar
-新聞;しんぶん;koran
 東;ひがし;timur
 東口;ひがしぐち;pintu timur
 東京;とうきょう;tokyo

@@ -107,6 +107,8 @@
     <div id="question"></div>
     <input type="text" id="answerInput" autocomplete="off" onkeypress="checkEnter(event)" />
     <button onclick="checkAnswer()" class="button">Submit</button>
+    <br /><br /><hr /><br />
+    <button onclick="backButton()" class="button">Go Back To Main Page</button>
 </div>
 
 <script>
@@ -397,6 +399,12 @@
         event.preventDefault(); // Prevent form submission
         loadSelectedCSV();
     });
+
+    // Function to back to main page
+    function backButton() {
+        document.getElementById('uploadContainer').style.display = 'block';
+        document.getElementById('quizArea').style.display = 'none';
+    }
 </script>
 </body>
 </html>

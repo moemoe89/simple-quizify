@@ -10,10 +10,10 @@ Question;Answer;Description
 セロテープ;selotip;
 寮/りょう;asrama;
 棚/たな;rak;
-乗り場;のりば;tempat naik kendaraan;(taxi, halte)
+乗り場/のりば;tempat naik kendaraan;(taxi, halte)
 電卓/でんたく;kalkulator;
 経済/けいざい;ekonomi;
-釣り;つり;mancing;
+釣り/つり;mancing;
 登録/とおろく;registrasi;
 時刻表/じこくひょう;tabel waktu;(jadwal bus)
 独身/どくしん;single;
@@ -133,7 +133,7 @@ Question;Answer;Description
 大勢の/おおぜいの;kerumunan;
 踏みます/ふみます;menginjak;(kaki)
 輸出/ゆしゅつ;ekspor;
-輸出/ゆにゅう;impor;
+輸入/ゆにゅう;impor;
 発明します/はつめいします;menciptakan;
 発見します/はっけんします;menemukan;(discovery)
 設計すします/せっけいすします;mendesain;
@@ -225,7 +225,7 @@ Question;Answer;Description
 調節します/ちょうせつします;menyesuaikan;
 細かい/こまかい;terperinci/kecil;
 濃い/こい;gelap/kuat(rasa);
-薄い/うすい;lemah(rasa)/light;
+薄い/うすい;lemah/light;(rasa)
 おかず;side dish;
 量/りょう;kuantitas/jumlah;
 １倍/１ばい;1 kali;
@@ -262,7 +262,7 @@ Question;Answer;Description
 婚約します/こにゃくします;bertunangan;
 相手/あいて;mitra;
 平均寿命/へいきんじゅみょう;rata-rata harapan hidup;
-博士;はかせ;doctor;(phd)
+博士/はかせ;doctor;(phd)
 脳/のう;otak;
 化粧品/けしょうひん;kosmetik;
 下ろします おろします;menurunkan;(dari tempat tinggi ke rendah)
@@ -277,7 +277,7 @@ Question;Answer;Description
 召し上がります/めしあがり余す;makan/minum;(sopan)
 おっしゃいます;memberitahu;(sopan)
 たまに;kadang-kadang;
-ー年ー組;ーねんーくみ;kelas-tahun-;
+ー年ー組/ーねんーくみ;kelas-tahun-;
 経歴/けいれき;background career;
 医学部/いがくぶ;departemen kesehatan;
 目指します/めざします;saya setuju;

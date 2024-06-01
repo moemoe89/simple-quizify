@@ -1,19 +1,12 @@
 Question;Answer;Description
-研究者/けんきゅうしゃ;peneliti;
 手帳/てちょう;buku catatan;
 名刺/めいし;kartu nama;
-シャーペン;pensil mekanik;
-ロビー;lobi;
 地下/ちか;basement;
-パンチ;memukul;
 ホッチキス;stapler;
-セロテープ;selotip;
 寮/りょう;asrama;
 棚/たな;rak;
-乗り場/のりば;tempat naik kendaraan;(taxi, halte)
 電卓/でんたく;kalkulator;
 経済/けいざい;ekonomi;
-釣り/つり;mancing;
 登録/とおろく;registrasi;
 時刻表/じこくひょう;tabel waktu;(jadwal bus)
 独身/どくしん;single;
@@ -28,7 +21,6 @@ Question;Answer;Description
 首相/しゅしょう;perdana menteri;
 大統領/だいとうりょう;presiden;
 政治/せいじ;politik;
-ラッシュ;rush hour;
 電気屋/でんきや;teknisi listrik;
 つまみ;knob;
 故障/こうしょう;breakdown/perincian;
@@ -38,10 +30,6 @@ Question;Answer;Description
 直接/ちょくせつ;secara langsung;
 燃えます/もえます;membakar(sampah);
 置き場/おきば;tempat menaruh/tempat menyimpan;
-瓶/びん;botol;
-缶/かん;kaleng;
-お湯/おゆ;air panas;
-電子メール/でんしメール;e-mail;
 宇宙/うちゅう;angkasa/semesta;
 宇宙船/うちゅうせん;pesawat ruang angkasa;
 宇宙飛行士/うちゅうひこうし;astronaut;
@@ -89,13 +77,11 @@ Question;Answer;Description
 非常口/ひじょうぐち;pintu darurat;
 本日休業/ほんじつきゅうぎょう;tutup hari ini;
 営業中/えいぎょうちゅう;buka untuk penjualan;
-使用中/しようちゅう;sedang digunakan;
 駐車違反/ちゅうしゃいはん;pelanggaran parkir;
 罰金/ばっきん;denda;
 急用/きゅうよう;urusan mendadak;
 打ちます/うちます;mengirim/mengetik;(telegram)(keyboard)
 電報代/でんぽうだい;biaya telegram;
-出来るだけ/できるだけ;sebisa mungkin;
 危篤/きとく;kondisi kritis;
 重い病気/おもいびょうき;penyakit berat;
 留守/るす;absen;(tidak hadir)
@@ -113,7 +99,6 @@ Question;Answer;Description
 煮ます/にます;mendidihkan;
 許可/きょか;permissions;
 操作/そうさ;operation;
-方法/ほうほう;metode;
 設備/せつび;fasilitas/perlengkapan;
 紐/ひも;benang;
 蓋/ふた;tutup;(panci)
@@ -132,14 +117,11 @@ Question;Answer;Description
 汽船/きせん;kapal uap;
 大勢の/おおぜいの;kerumunan;
 踏みます/ふみます;menginjak;(kaki)
-輸出/ゆしゅつ;ekspor;
-輸入/ゆにゅう;impor;
 発明します/はつめいします;menciptakan;
 発見します/はっけんします;menemukan;(discovery)
 設計すします/せっけいすします;mendesain;
 麦/むぎ;gandum;
 石油/せきゆ;minyak bumi;
-油/あぶら;minyak;
 原料/げんりょう;bahan mentah;
 建築家/けんちくか;arsitek;
 科学者/かがくしゃ;ilmuwan;
@@ -158,7 +140,6 @@ Question;Answer;Description
 双子/ふたご;kembar;
 姉妹/しまい;saudara perempuan;
 ５年生/５ねんせい;kelas 5/tahun ke 5;
-がっかりします;kecewa;
 早退します/そうたいします;pergi lebih awal;
 離婚します/りこんしょます;cerai;
 石鹸/せっけん;sabun batang;
@@ -170,12 +151,10 @@ Question;Answer;Description
 数えます/かぞえます;menghitung;
 測ります/量ります/はかります;mengukur/menimbang;
 確かめます/たしかめます;mengecek/memastikan;
-合います/あいます;fit;(ukuran)
 到着します/とうちゃくします;tiba;
 酔います/よいます;mabuk;(minuman)
 忘年会/ぼうねんかい;pesta akhir tahun;
 新年会/しんねんかい;pesta awal tahun;
-二次会/にじかい;pesta kedua;
 大会/たいかい;turnamen;
 表/おもて;bagian depan/muka;(gedung)(koin)
 裏/うら;bagian belakang/belakang;(gedung)(koin)
@@ -184,7 +163,6 @@ Question;Answer;Description
 様子/ようす;situasi/kondisi/penampilan;
 爆弾/ばくだん;bom;
 積みます/つみます;menumpuk;
-離れた/はなれた;jauh/remote;
 犯人/はんにん;pelaku/tersangka;
 噂します/うわさします;gosip/rumor;
 お年玉/おとしだま;uang tahun baru;
@@ -198,10 +176,8 @@ Question;Answer;Description
 煙/けむり;asap;
 中身/なかみ;isi;(dari kotak)
 計算します/けいさんします;menjumlahkan;
-弁護士/べんごし;pengacara;
 音楽家/おんがくか;musisi;
 法律/ほうりつ;hukum;
-戦争/せんそう;perang;
 目的/もくてき;tujuan/goal;
 論文/ろんぶん;thesis/paper;
 薬缶/やかん;ketel;
@@ -213,13 +189,11 @@ Question;Answer;Description
 体温計/たいおんけい;termometer;
 国連/こくれん;persatuan negara-negara;
 調査/ちょうさ;penyelidikan/investigasi/survey;
-丈夫/じょうぶ;kuat;
 暖房/だんぼう;pemanas;
 冷房/れいぼう;ac;
 適当/てきとう;proper/suitable;
 年齢/ねんれい;usia;
 収入/しゅうにゅう;penghasilan;
-ぴったり;tepat/exactly;
 乾きます/かわきます;kering;
 滑ります/すべります;tergelincir;
 調節します/ちょうせつします;menyesuaikan;
@@ -237,7 +211,6 @@ Question;Answer;Description
 領収書/りょうしゅうしょ;kuitansi/struk;
 贈物/おくりもの;hadiah;
 円札/えんさつ;tagihan;
-４位/４い;4th;
 優勝します/ゆうしょうします;menang/juara;(piala)
 悩み/なやみ;khawatir;(untuk diri sendiri)
 目覚まし/めざまし;alarm;(jam)
@@ -245,9 +218,7 @@ Question;Answer;Description
 鳴ります/なります;berdering;
 宅配便/たくはいびん;home delivery;
 原因/げんいん;penyebab;
-注射/ちゅうしゃ;suntikan;
 食欲/しょくよく;nafsu makan;
-知識 ちしき;pengetahuan;
 宝庫/ほうこ;harta karun;
 一部分/いちぶぶん;1 part;
 入力します/にゅうりょくします;input;
@@ -255,7 +226,6 @@ Question;Answer;Description
 実験/じっけん;eksperimen;
 人口/じんこう;populasi;
 化学/かがく;sains;
-医学/いがく;kedokteran;
 救急車/きゅうきゅうしゃ;ambulans;
 賛成/さんせい;perjanjian/persetujuan;
 によると;according to;
@@ -265,10 +235,9 @@ Question;Answer;Description
 博士/はかせ;doctor;(phd)
 脳/のう;otak;
 化粧品/けしょうひん;kosmetik;
-下ろします おろします;menurunkan;(dari tempat tinggi ke rendah)
+下ろします/おろします;menurunkan;(dari tempat tinggi ke rendah)
 塾/じゅく;bimbel;
 構いません/かまいません;tidak apa-apa;
-元々/もともと;originally;
 競争します/きょうそうします;bersaing;
 芸/げい;teknik/performance/art;
 姿/すがた;sosok;
@@ -276,7 +245,6 @@ Question;Answer;Description
 掛けます/かけます;duduk;(dikursi)
 召し上がります/めしあがり余す;makan/minum;(sopan)
 おっしゃいます;memberitahu;(sopan)
-たまに;kadang-kadang;
 ー年ー組/ーねんーくみ;kelas-tahun-;
 経歴/けいれき;background career;
 医学部/いがくぶ;departemen kesehatan;

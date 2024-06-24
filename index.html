@@ -262,6 +262,13 @@
     // Function to check the user's answer
     function checkAnswer() {
         var userAnswer = document.getElementById('answerInput').value.trim().toLowerCase();
+
+        // Check if the input is empty
+        if (userAnswer === "") {
+            alert("Please enter an answer before continuing.");
+            return; // Stop the function execution
+        }
+        
         var currentQuestion = questions.find(q => q.question === document.querySelector('.question').textContent);
         var correctAnswer = currentQuestion.answer.toLowerCase();
 

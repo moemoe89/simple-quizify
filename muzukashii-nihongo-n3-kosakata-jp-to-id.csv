@@ -110,7 +110,7 @@ Question;Answer;Description
 ジュースを溢す「こぼす」;menumpahkan jus;
 ジュースが溢れる「こぼれる」;jusnya tumpah;
 ほこりが積もる「つもる」;debu menumpuk (dari atas);
-ほこりがたます;debu menumpuk (dari banyak arah);
+ほこりがたまる;debu menumpuk (dari banyak arah);
 ほこりを取る「とる」;mengambil debu (membersihkan);
 掃除機「そうじき」をかける;membersihkan dengan vaccum cleaner;
 ほうきで掃く「はく」;menyapu dengan sapu;
@@ -128,3 +128,26 @@ Question;Answer;Description
 生「なま」ゴミ;sampah dapur;
 燃える「もえる」ゴミ;sampah yang bisa dibakar;
 燃えない「もえない」ゴミ;sampah yang tidak bisa dibakar;
+がたまる;menumpuk;intransitif
+をためる;menumpuk(kan);transitif
+が濡れている「ぬれている」;basah;intransitif
+を濡らす「ぬらす」;membasahi;transitif
+が湿っている「しめっている」;lembab (belum kering);transitif
+を干す「ほす」;menjemur;transitif
+が乾く「かわく」;kering;intransitif
+を洗濯機「せんたくき」を乾かす「かわかす」;mengeringkan (dengan mesin cuci);transitif
+が真っ白「まっしろ」に仕上がる「しあがる」;menjadi putih bersih;intransitif
+を畳む「たたむ」;melipat;transitif
+服「ふく」を汚す「よごす」;mengotori pakaian;
+汚れ「よごれ」;kotoran;
+袖「そで」が真っ黒「まっくろ」に汚れる「よごれる」;lengan baju nya kotor sampai berwarna hitam pekat;
+（洗濯用「せんたくよう」/台所用「だいどころよう」）洗剤「せんざい」を入れる「いれる」;memasukkan deterjen (untuk cucian atau dapur);
+シューツをクリーニングに出す「だす」;mencuci jas di laundry;
+コインランドリーで洗濯「せんたく」をする;mencuci menggunakan koin laundry;
+タオルを干す「ほす」;menjemur handuk;
+服「ふく」を吊るす「つるす」;menggantung baju;
+ワイシャツにアイロンをかける;menyeterika baju;
+シワを伸ばす「のばす」;merapikan baju yang kusut;
+シワが伸びる「のびる」;menjadi kusut;
+ウールのセーターが縮む「ちじむ」;sweater berbahan wool mengkerut;
+ジーンズの色「いろ」が落ちる「おちる」;warna jins luntur;

@@ -193,7 +193,6 @@ Question;Answer;Description
 美しい;うつくしい;cantik,mempesona
 美術;びじゅつ;seni
 手術;しゅじゅつ;operasi(kedokteran)
-技術;ぎじゅつ;teknologi
 神社;じんじゃ;kuil
 神様;かみさま;Tuhan
 神経質な;しんけいしつな/しんけいしつ;sensitif(merasakan sesuatu sampai detail)
@@ -329,7 +328,7 @@ Question;Answer;Description
 機会;きかい;kesempatan
 増える;ふえる;bertambah
 増やす;ふやす;menambahkan
-増加;ぞうか;penambahan
+増加;ぞうか;penambahan,bertambah,meningkat
 減る;へる;berkurang
 減らす;へらす;mengurangi
 減少;げんしょう;pengurangan
@@ -521,7 +520,6 @@ Question;Answer;Description
 希望;きぼう;harapan
 望む;のぞむ;mengharap
 失望;しつぼう;hilang harapan
-交換;こうかん;pertukaran
 乗り換え;のりかえ;transfer (kendaraan)
 代金引換;だいきんひきかえ;cash on delivery
 代引き;だいびき;cash on delivery
@@ -566,7 +564,7 @@ Question;Answer;Description
 細かい;こまかい;kecil,lembut,detail
 苦しい;くるしい;menyakitkan, derita
 苦い;にがい;pahit
-苦労;くろう;kerja keras
+苦労;くろう;kerja keras,bersusah-payah
 苦手;にがて;tidak suka, kelemahan
 お礼;おれい;ucapan terima kasih
 伺う;うかがう;bertanya(sopan, bentuk sonkeigo), mengunjungi
@@ -603,7 +601,7 @@ Question;Answer;Description
 予想;よそう;perkiraan
 練習;れんしゅう;latihan
 最近;さいきん;akhir-kahir ini
-最初;さいしょ;paling awal
+最初;さいしょ;paling awal,awalnya
 最後;さいご;paling akhir
 最も;もっとも;paling
 適当な;てきとう/てきとうな;sesuai, asal(ngasal)
@@ -698,7 +696,6 @@ Question;Answer;Description
 鳴る;なる;bunyi,berdering
 初め;はじめ;awal(nya)
 初めて;はじめて;pertama kali
-最初;さいしょ;awalnya
 初級;しょきゅう;level awal
 泊まる;とまる;menginap
 泊める;とめる;menginap(kan)
@@ -829,7 +826,5 @@ Question;Answer;Description
 表情;ひょうじょう;ekspressi muka
 事情;じじょう;alasan,kondisi
 感情;かんじょう;emosi
-苦労;くろう;bersusah-payah
 労働者;ろうどうしゃ;pekerja
 加える;くわえる;menambahkan
-増加;ぞうか;bertambah,meningkat

@@ -437,36 +437,66 @@ Question;Answer;Description
 マフラを巻く「まく」/する;memakai syal;
 手袋「てぶくろ」をめる/する;memakai sarung tangan;
 指輪「ゆびわ」をめる/する;memakai cincin;
-;tanpa lengan;
-;polos;
-;lengan pendek;
-;lengan panjang;
-;corak;
-;garis-garis;
-;polkadot;
-;corak bunga;
-;menyukai;
-;kesukaan,favorit;kata benda
-;menyukai;
-;kesukaan;kata benda
-;cocok;
-;mencolok;
-;warna mencolok;
-;sederhana;
-;desain populer,banyak disukai;
-;lagi nge-tren;
-;nge-tren;
-;memastikan ukuran;
-;ukurannya cocok;
-;kendor,tidak pas;
-;ketat;
-;memasukkan barang ke keranjang;
-;membeli barang promo;
+袖なし「そでなし」;tanpa lengan;
+無地「むじ」;polos;
+半袖「はんそで」;lengan pendek;
+長袖「ながそで」;lengan panjang;
+柄「がら」/模様「もよう」;corak;
+しま;garis-garis;
+水玉「みずだま」;polkadot;
+花柄「はながら」;corak bunga;
+気に入る「きにいる」;menyukai;
+お気に入り「おきにいり」;kesukaan,favorit;kata benda
+好む「このむ」;menyukai;
+好み「このみ」;kesukaan;kata benda
+似合う「にあう」;cocok;
+派手な「はでな」;mencolok;
+目立つ色「めだついろ」;warna mencolok;
+地味な「じみな」;sederhana;
+人気「にんき」のあるデザイン;desain populer,banyak disukai;
+流行っている「はやっている」;lagi nge-tren;
+流行り「はやり」/流行「りゅうこう」;nge-tren;
+サイズを確かめる「たしかめる」/確認する「かくにんする」;memastikan ukuran;
+サイズが合う「あう」;ukurannya cocok;
+緩い「ゆるい」;kendor,tidak pas;
+きつい;ketat;
+品物「しなもの」を籠「かご」に入れる「いれる」;memasukkan barang ke keranjang;
+セール/バーゲンで買う「かう」;membeli barang promo;
 ;barang promo yang dijual di department store;
-;diskon 30%;
-;habis terjual;
-;habis terjual;kata benda
-;berlian asli;
-;barang palsu;
-;mendapat untung;
-;menderita kerugian;
+３０パーセント(％)オフ/３割びき「わりびき」;diskon 30%;
+売り切れる「うりきれる」;habis terjual;
+売り切れ「うりきれ」;habis terjual;kata benda
+本物「ほんもの」のダイヤモンド;berlian asli;
+偽物「にせもの」;barang palsu;
+得「とく」をする;mendapat untung;
+損「そん」をする;menderita kerugian;
+家族「かぞく」揃って「そろって」/家族「かぞく」全員「ぜんいん」で;bersama dengan semua anggota keluarga;
+子供「子ども」を連れる「つれる」;mengajak anak;
+子供「子ども」連れ「ずれ」;orang tua dan anak;
+腹「はら」/お腹「おなか」が減る「へる」;lapar;sama dengan すいている
+外食「がいしょく」をする;makan di luar (tidak di rumah);
+お昼「おひる」を食べる「たべる」/昼食「ちゅうしょく」を取る「とる」;makan siang;sama dengan ランチ
+雰囲気「ふんいき」の良い店「いいみせ」;toko dengan suasana yang bagus,nyaman;
+満席「まんせき」;penuh(semua kursi terisi);
+列「れつ」に並ぶ「ならぶ」;mengantri;
+行列「ぎょうれつ」ができる;timbul antrian;
+禁煙席「きんえんせき」;kursi dilarang merokok;
+喫煙席「きつえんせき」;kursi boleh merokok;
+ワイートレスにお勧め「おすうめ」を聞く「きく」;menanyakan rekomendasi ke pelayan;
+量「りょう」が多い「おおい」;porsi banyak;
+量「りょう」が少ない「すくない」;porsi sedikit;
+注文「ちゅうもん」が決める「きめる」;pesanan (telah ditentukan);
+注文「ちゅうもん」する;memesan;
+注文「ちゅうもん」を取る「とる」/受け取る「うけとる」;menerima pesanan;
+;menambah (order) dessert;order baru
+;menambah kopi;sudah pesan sebelumnya
+無料「むりょう」/ただ;gratis;
+;mengambil peralatan makan (setelah selesai makan);
+料理「りょうり」を残す「のこす」;menyisakan makanan;
+勿体無い「もったいない」;sayang, mubadzir;
+何名様「なんめいさま」ですか？;berapa orang?;
+二人「ふたり」です;2 orang;
+;mohon maaf;
+;mohon tunggu sebentar;
+;mohon maaf telah membuat (anda) menunggu;
+;terima kasih telah bersedia menunggu;

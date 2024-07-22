@@ -154,6 +154,7 @@
 <div id="quizArea">
     <div id="notificationArea"></div>
     <div id="question"></div>
+    <div id="download"></div>
     <input type="text" id="answerInput" autocomplete="off" onkeypress="checkEnter(event)" required="required"/>
     <button onclick="checkAnswer()" class="button">Submit</button>
     <br /><br /><hr /><br />
@@ -287,6 +288,7 @@
         var question = shuffledQuestions.pop();
         var currentQuestion = questions.find(q => q.question === question);
         document.getElementById('question').innerHTML = '<div style="padding: 10px"> (' + currentQuestionNumber + '/' + totalQuestions + ') </div>' + '<div class="question">' + currentQuestion.question + '</div>';
+        document.getElementById('download').innerHTML = '';
         scrollToBottom();
         return currentQuestion;
     }
@@ -415,8 +417,15 @@
         questionDiv.appendChild(replayButton);
         if(incorrectAnswers > 0) {
             questionDiv.appendChild(replayIncorrectButton);
-            questionDiv.appendChild(downloadIncorrectCSVButton);
         }
+
+        var downloadDiv = document.getElementById('download');
+        downloadDiv.textContent = '';
+        downloadDiv.style.marginTop = '5px'
+        if(incorrectAnswers > 0) {
+            downloadDiv.appendChild(downloadIncorrectCSVButton);
+        }
+
         scrollToBottom(); // Scroll to bottom after displaying summary
     }
 

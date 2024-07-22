@@ -168,6 +168,7 @@
     var currentQuestionNumber = 1;
     var correctAnswers = 0;
     var totalQuestions = 0;
+    var fileName;
 
     // Function to shuffle an array
     function shuffle(array) {
@@ -235,6 +236,8 @@
         var fileInput = document.getElementById('csvFileInput');
         var selectedFile = fileInput.files[0];
         if (selectedFile) {
+            fileName = selectedFile.name;
+
             questions = [];
             answeredQuestions = [];
             shuffledQuestions = [];
@@ -397,6 +400,14 @@
             replayIncorrectButton.style.marginLeft = "5px"; // Add left margin
         }
 
+        var downloadIncorrectCSVButton = document.createElement('button');
+        downloadIncorrectCSVButton.textContent = "Download Incorrect CSV";
+        downloadIncorrectCSVButton.addEventListener('click', downloadIncorrectCSVQuestions);
+        downloadIncorrectCSVButton.className = "button"
+        if(incorrectAnswers > 0) {
+            downloadIncorrectCSVButton.style.marginLeft = "5px"; // Add left margin
+        }
+
         // Clear the question area and append summary notification and buttons
         var questionDiv = document.getElementById('question');
         questionDiv.textContent = '';
@@ -404,6 +415,7 @@
         questionDiv.appendChild(replayButton);
         if(incorrectAnswers > 0) {
             questionDiv.appendChild(replayIncorrectButton);
+            questionDiv.appendChild(downloadIncorrectCSVButton);
         }
         scrollToBottom(); // Scroll to bottom after displaying summary
     }
@@ -441,6 +453,43 @@
 
         // Display the first incorrect question
         selectRandomQuestion();
+    }
+
+    // Function to download only the incorrectly answered questions as CSV
+    function downloadIncorrectCSVQuestions() {
+        // Filter answered questions to get incorrect ones
+        var incorrectQuestions = answeredQuestions.filter(qa => !qa.isCorrect);
+
+        // Extract field
+        const fields = ['question', 'correctAnswer', 'description'];
+        // Extract headers
+        const headers = ['Question', 'Answer', 'Description'];
+
+        // Map array of objects to array of arrays with selected headers
+        const csvRows = incorrectQuestions.map(item => fields.map(field => item[field]));
+
+        // Add headers as the first row
+        csvRows.unshift(headers);
+
+        // Convert array of arrays to CSV string with semicolon delimiter
+        const csvContent = csvRows.map(row => row.join(';')).join('\n');
+
+        // Create a Blob from the CSV string
+        const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+
+        // Create a link element to initiate download
+        const link = document.createElement('a');
+        const url = URL.createObjectURL(blob);
+        link.setAttribute('href', url);
+        link.setAttribute('download', 'incorrect_'+fileName);
+
+        // Append link to body and trigger click to start download
+        document.body.appendChild(link);
+        link.click();
+
+        // Clean up: remove the link and revoke the object URL
+        document.body.removeChild(link);
+        URL.revokeObjectURL(url);
     }
 
     // Function to handle keypress event on input field

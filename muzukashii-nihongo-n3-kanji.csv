@@ -511,7 +511,7 @@ Question;Answer;Description
 宅配;たくはい;delivery ke rumah
 配る;くばる;membagikan
 配達;はいたつ;delivery
-配送料;;biaya pengiriman
+配送料;はいそうりょう;biaya pengiriman
 心配;しんぱい;khawatir
 荷物;にもつ;barang
 手荷物;てにもつ;barang bawaan(di tangan)
@@ -644,7 +644,7 @@ Question;Answer;Description
 曲がる;まがる;belok
 曲げる;まげる;membelokkan
 曲;きょく;lagu
-きょくせん;;garis bergelombang
+曲線;きょくせん;garis bergelombang
 寝る;ねる;tidur
 昼寝;ひるね;tidur siang
 寝坊;ねぼう;kesiangan
@@ -770,7 +770,7 @@ Question;Answer;Description
 完成;かんせい;selesai(membuat)
 成長;せいちょう;tumbuh
 貿易;ぼうえき;perdagangan
-易しい;;mudah
+易しい;やさしい;mudah
 輸出;ゆしゅつ;ekspor
 輸入;ゆにゅう;import
 輸送;ゆそう;mengirim(formal)

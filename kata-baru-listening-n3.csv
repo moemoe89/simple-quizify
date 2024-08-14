@@ -67,7 +67,7 @@ Question;Answer;Description
 卒業論文;そつぎょうろんぶん;tesis kelulusan
 中心;ちゅうしん;terutama/fokus
 襟;えり;kerah
-流行;りゅうこう;trend
+流行;りゅうこう;trend,kecenderungan
 一流企業;いちりゅうきぎょう;perusahaan terkemuka
 親子;おやこ;orang tua dan anak
 ご希望の方;ごきぼうのかた;yang diinginkan
@@ -86,7 +86,6 @@ Question;Answer;Description
 最新型;さいしんがた;model terbaru
 目的に合わせて;もくてきにあわせて;sesuai tujuan
 研究会;けんきゅうかい;study group
-報告;ほうこく;laporan
 載せて;のせて;meletakkan
 市内;しない;kota
 小銭;こぜに;koin
@@ -101,10 +100,8 @@ Question;Answer;Description
 順番;じゅんばん;urutan
 厳禁;げんきん;sangat dilarang
 服装;ふくそう;pakaian
-流行;りゅうこう;kecenderungan
-防ぐ;ふせぐ;mencegah
 うがい;うがい;berkumur
-効果;こうか;mempengaruhi
+効果;こうか;mempengaruhi,efek
 抑える;おさえる;menekan
 特徴;とくちょう;ciri-ciri
 転ぶ;ころぶ;jatuh
@@ -130,22 +127,18 @@ Question;Answer;Description
 目が覚める;めがさめる;terbangun
 直前;ちょくぜん;sesaat sebelum
 眺める;ながめる;memandang
-観察;かんさつ;pengamatan
-承知しました;しょうちしました;saya mengerti
-看板;かんばん;papan nama
+承知しました;しょうちしました;saya mengerti(sama dg wakarimashita)
 貸約束;かしやくそく;janji pinjam
 表の数字;ひょうのすうじ;angka dalam tabel
 全体的;ぜんたいてき;overall
 ゼミナー;ゼミナー;seminar
 参考;さんこう;referensi
 外出中;がいしゅつちゅう;sedang keluar/tidak di tempat
-承知しました;しょうちしました;sama dg wakarimashita
 早速;さそく;segera
 郵送;ゆうそう;via mail
 期間;きかん;periode
 稼い;かせい;menghasilkan uang
 更新料;こうしんりょう;biaya pembaharuan
-効果;こうか;efek
 液体;えきたい;liquid,cairan
 貼;はる;tempel
 修理;しゅうりょう;repair,memperbaiki
@@ -160,7 +153,6 @@ Question;Answer;Description
 ペンキ;ペンキ;cat
 今日中;きょうじゅう;selama hari ini
 電卓;でんたく;kalkulator
-小銭;こぜに;koin
 偶然;ぐうぜん;kebetulan (misal kebetulan bertemu teman)
 初級;しょきゅう;level pemula
 中級;ちゅうきゅう;level menengah
@@ -174,7 +166,7 @@ Question;Answer;Description
 チラシ;チラシ;pamflet
 休まず;やすまず;tidak ada istirahat
 防ぐ;ふせぐ;mencegah (misal mencegah gigi berlubang) 虫歯も防げる
-観察;かんさつ;observasi
+観察;かんさつ;observasi,pengamatan
 看板;かんばん;papan informasi (misal arah kota di jalan)
 差し上げます;さしあげます;memberikan padamu
 〜向けに;むけに;untuk~ (misal 海外向けに)
